@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    }
+
+.cv {
+    margin: 0 auto;
+    position: relative;
+    width: 595px;
+    height: 842px;
+    background: #FFFF;
+}
+
+.top_line {
+    border-top: 4px solid black
+}
+
+.divider {
+    height: 15px;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Arial';
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+    width: 197px;
+    height: 60px;
+    left: 48px;
+    top: 70px;
+}
+
+.current_status {
+    font-family:'Arial';
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.avatar {
+    border-radius: 50%;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 407px;
+    top: 36px;
+}
+
+.experience {
+    position: absolute;
+    width: 335px;
+    height: 630px;
+    top: 140px;
+    left: 48px;
+    }
+
+.skills {
+    position: absolute;
+    width: 140px;
+    height: 558px; 
+    left: 407px;
+    top: 140px;
+    }
+
+.category, .period, .infos, .list, .social_info_links {
+    font-family: 'Inter-Medium';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(87, 85, 85);
+    }
+
+.specialty {
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    }
+
+.responsibilities {
+        font-family: 'Arial';
+        font-size: 13px;
+        color: black;
+    }
+
+.institution {
+        font-family: 'Arial';
+        font-size: 12px;
+        color: black;
+    }
+
+.social_networks_links {
+        color: rgb(87, 85, 85);;
+        font-size: 11px;
